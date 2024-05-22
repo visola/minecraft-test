@@ -1,8 +1,8 @@
 {
   "format_version": 2,
   "header": {
-    "description": "My attack cow behavior pack Add-On!",
-    "name": "My Behavior Pack",
+    "description": "Elemental Pets include pets that have elemental powers.",
+    "name": "Elemental Pets",
     "uuid": "91e0a9d7-f6d0-450d-9b16-ae528bb3d2b2",
     "version": [
       1,
@@ -17,7 +17,7 @@
   },
   "modules": [
     {
-      "description": "My First Add-On!",
+      "description": "Elemental Pets",
       "type": "data",
       "uuid": "742c2f1c-2246-47e4-af26-2e41652d5288",
       "version": [

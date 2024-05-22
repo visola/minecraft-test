@@ -3,7 +3,6 @@
   "minecraft:entity": {
     "description": {
       "identifier": "elemental_pets:fire_chicken",
-      "spawn_category": "creature",
       "is_spawnable": true,
       "is_summonable": true
     },
