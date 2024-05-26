@@ -3,17 +3,27 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "elemental_pets:fire_chicken",
-      "textures": {
-        "default": "textures/entity/fire_chicken"
+      "animations": {
+        "look_at_target": "animation.common.look_at_target"
       },
       "geometry": {
         "default": "geometry.fire_chicken"
       },
+      "materials": {
+        "default": "entity"
+      },
       "render_controllers": [
         "controller.render.default"
       ],
-      "materials": {
-        "default": "entity"
+      "scripts": {
+        "animate": ["look_at_target"]
+      },
+      "spawn_egg": {
+        "base_color": "#505152",
+        "overlay_color": "#ffe599"
+      },
+      "textures": {
+        "default": "textures/entity/fire_chicken"
       }
     }
   }
