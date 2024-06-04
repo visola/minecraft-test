@@ -31,6 +31,9 @@
           }
         ]
       },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
       "minecraft:movement": {
         "value": 0.25
       },
